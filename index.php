@@ -30,13 +30,14 @@
       <nav class="navbar navbar-fixed-top">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
+          <div class="navbar-header clearfix">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a href="/"><img class="logo" src="/img/logo.png" alt="Helping Hominids" /></a>
             <a class="navbar-brand" href="/">Helping Hominids</a>
           </div>
 
@@ -58,23 +59,90 @@
       <div class="video">
           <div class="overlay"></div>
           <div class="intro-content">
-              <h1 class="text-center text-uppercase"><strong>Save the rainforest.<br /><span class="teal">save yourself.</span></strong></h1>
+              <h1 class="text-center text-uppercase"><strong>Save the rainforest<br /><span class="teal">save yourself</span></strong></h1>
               <hr class="colored">
               <h2 class="text-center text-uppercase strong">Be aware of unsustainably sourced Palm Oil</h2>
           </div>
       </div>
 
+      <!-- Mission Statement -->
+      <section id="mission-statement" class="slide" data-background="#fff">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-md-8 col-md-offset-2">
+                      <div class="text-center">
+                          <div class="highlight-container clearfix">
+                             <!-- <i class="fa fa-quote-left float-left"></i> -->
+                              <p class="lead strong">Humans will not be without consequence if we continue on this trajectory of deforestation.</p>
+
+                              <hr class="small_hr" />
+                             <!-- <i class="fa fa-quote-right float-right"></i>-->
+                          </div>
+                          <p>
+                            The rainforest regulates the quality of the planet’s air, water, and climate. This massive ecosystem is already almost gone. If it disappears it can not be grown back. A monoculture of palm oil trees will deplete the nutrients in the soil, flood the local villages due to erosion, and eliminate all of the wild animals within it. You may not think this affects your daily life, or be nay reason for concern except for the unlucky rhinos, tigers, and orangutans. Humans will not be without consequence if we continue on this trajectory of deforestation. The rainforest works as a carbon dioxide filter for the globe. Without the rainforests, we will lose the quality of our air, water, and, climate.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Environment Callout -->
+      <section id="environment-callout">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-10 col-md-offset-1 clearfix">
+                      <p>
+                        Burning to remove the forest is releasing copious amounts of carbon dioxide into the atmosphere. It is not only removing the planet’s air filter, but the peat swamp that the tropical rainforest sits on is packed with CO<sub>2</sub>. The atmosphere holds these greenhouse gasses and is changing the earth’s climate. Burning the forest to grow our palm oil is not only affecting our atmosphere, it is burning the animals inside them.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Gif Callout -->
+      <section id="gif" class="slide" data-background="#93d8ca">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <img id="forest-gif" src="/img/forest_disappearing.gif" alt="Forest disappearing gif" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                      <p>
+                        The Indonesian and Malaysian rainforests are being used for the planting of Palm Oil plantations more than any other countries in the world. Indonesia and Malaysia are the only two countries in the world orangutans are found. The world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of money other countries are funneling into the plantations. Countries like the United States.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Orangutan Callout -->
+      <section id="orangutan-callout">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-md-5 columns">
+                      <p class="text-center deaths-container strong"><span class="deaths break red">55,613</span> orangutans remaining</p>
+                  </div>
+                  <div class="col-md-7 columns">
+                      <p class="about-orang-p">
+                          Orangutans are being burnt alive because they are in the way of the production of your favorite shampoo. They are dying each day and are on the brink of extinction due to the high demand for palm oil.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
       <!-- Palm Oil -->
-      <section id="palm-oil">
+      <section id="palm-oil" class="slide" data-background="#fff">
 
           <div class="container">
               <div class="row">
                   <div class="section-container text-uppercase strong text-center">
-                      <h2 class="text-uppercase">what is palm oil</h2>
+                      <h2 class="text-uppercase">Palm Oil?</h2>
                   </div>
                   <div class="col-sm-12 col-md-12">
-                      <p>
-                        Every day millions of people shop in the grocery store. Palm oil lines the shelves of every single grocery store. Palm oil is a type of vegetable oil used in things like butter, milk, shampoo, makeup, chocolate. Companies use it as an ingredient because it is cheap to grow and efficiently grown in comparison to other oils such as coconut oil. The palm oil tree has a long life span and produces much more fruit each harvest than any other oil.
+                      <p class="line-height">
+                          This deforestation is caused by everybody. It is not the Indonesian and Malaysian people who are choosing to log the forest until its gone. It is us. Every day millions of people shop in the grocery store. Palm oil lines the shelves of every single grocery store. Palm oil is a type of vegetable oil used in things like butter, milk, shampoo, makeup, chocolate.  Companies use it as an ingredient because it is cheap to grow and efficiently grown in comparison to other oils such as coconut oil. The palm oil tree has a long life span and produces much more fruit each harvest than any other oil.
                       </p>
                   </div>
               </div>
@@ -91,7 +159,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Ice Cream</span></div>
+                      <div class="palm-oil-thing" id="icecream"><span>Ice Cream</span></div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
                       <div class="palm-oil-thing"><span>Pizza</span></div>
@@ -112,7 +180,10 @@
                       <div class="palm-oil-thing"><span>Cookies</span></div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Soap</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Soap</span>
+                          <div id="soap"></div>
+                      </div>
                   </div>
               </div>
           </div>
@@ -130,48 +201,9 @@
       <section id="environment-callout">
           <div class="container">
               <div class="row">
-                  <div class="col-md-12 clearfix">
+                  <div class="col-md-10 col-md-offset-1 clearfix">
                       <p>
-                          To farm a plantation of palm trees, the land (peat swamps) must be drained.
-                          Peat swamps contain massive amounts of carbon dioxide; once they are drained,
-                          they releases carbon dioxide comparable to [fact_here] into the atmosphere speeding up
-                          the greenhouse effect on our planet.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Mission Statement -->
-      <section id="mission-statement">
-          <div class="container">
-              <div class="row text-center">
-                  <div class="col-md-10 col-md-offset-1">
-                      <div class="text-center">
-                          <div class="highlight-container clearfix">
-                              <i class="fa fa-quote-left float-left"></i>
-                              <p class="lead strong">Without the rainforests, we will lose the quality of our air, water, and, climate.</p>
-                              <i class="fa fa-quote-right float-right"></i>
-                          </div>
-                          <p>
-                            The rainforest regulates the quality of the planet’s air, water, and climate. This massive ecosystem is already almost gone. If it disappears it can not be grown back. A monoculture of palm oil trees will deplete the nutrients in the soil, flood the local villages due to erosion, and eliminate all of the wild animals within it. You may not think this affects your daily life, or be nay reason for concern except for the unlucky rhinos, tigers, and orangutans. Humans will not be without consequence if we continue on this trajectory of deforestation. The rainforest works as a carbon dioxide filter for the globe. Without the rainforests, we will lose the quality of our air, water, and, climate.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Orangutan Callout -->
-      <section id="orangutan-callout">
-          <div class="container">
-              <div class="row text-center">
-                  <div class="col-md-5 columns">
-                      <p class="text-center deaths-container strong"><span class="deaths break red">55,613</span> orangutans remaining</p>
-                  </div>
-                  <div class="col-md-7 columns">
-                      <p class="about-orang-p">
-                          Orangutans are dying each day and are on the brink of extinction due to the high demand for palm oil.
+                        The topical rainforest spans the equator crossing South America, Africa and Southeast Asia. Palm oil grows best in this type of humid lowland forest. The Indonesian and Malaysian rainforests are being used for the planting of Palm Oil plantations more than any other countries in the world. Indonesia and Malaysia are the only two countries in the world orangutans are found. The world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of money other countries are funneling into the plantations. Countries like the United States.
                       </p>
                   </div>
               </div>
@@ -179,7 +211,7 @@
       </section>
 
       <!-- Environment Effects -->
-      <section id="environment-effects">
+      <section id="environment-effects" class="slide" data-background="#ea6d6c">
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
@@ -211,7 +243,7 @@
       </section>
 
       <!-- Statistics -->
-      <section id="statistics">
+      <section id="statistics" class="slide" data-background="#fff">
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
@@ -227,15 +259,14 @@
                   <div class="col-sm-12 col-md-12 columns">
                       <div class="charts text-center clearfix">
                           <div class="chart1">
-                              <h3 class="strong">Coconut Oil vs Palm Oil</h3>
+                              <h3 class="strong">Orangutan Population Decrease</h3>
                               <canvas id="canvas" class="chart"></canvas>
                               <p>
-                                  100 acres produces less than 1 metric ton of coconut oil, while
-                                  100 acres produces 5 metric tons of palm oil.
+                                  Orangutan population have drastically decreased over the past 100 years.
                               </p>
                           </div>
                           <div class="chart2">
-                              <h3 class="strong">Predicted Palm Oil Usage</h3>
+                              <h3 class="strong">Trajectory of Palm Oil Usage</h3>
                               <canvas id="canvas2" class="chart"></canvas>
                               <p>
                                   The use of palm oil is predicted to<br>double by 2020.
@@ -244,13 +275,9 @@
                           <div class="chart3">
                               <h3 class="strong">Where Palm Oil Is Produced</h3>
                               <canvas id="canvas3" class="chart"></canvas>
-                              <ol>
-                                  <li>Indonesia</li>
-                                  <li>Malaysia</li>
-                                  <li>Thailand</li>
-                                  <li>Colombia</li>
-                                  <li>Nigeria</li>
-                              </ol>
+                              <p>
+                                  Indonesia and Malaysia are the number one suppliers of palm oil.
+                              </p>
                           </div>
                       </div>
                   </div>
@@ -259,7 +286,7 @@
       </section>
 
       <!-- How You Can Help -->
-      <section id="you-help">
+      <section id="you-help" class="slide" data-background="#93d8ca">
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
@@ -267,21 +294,22 @@
                           <h2 class="section-title text-capitalize text-center">How You Can Help</h2>
                       </div>
 
+                      <p class="text-center" style="margin-bottom: 25px;">
+                          <strong>Not all hope is lost!</strong> There are companies who chose to avoid supporting cheap, fast growth of their palm oil. Plantations who reuse the already deforested land are growing sustainable palm oil. <a href="http://www.rspo.org/members/all" target="_blank">RSPO</a> helps you know if you are buying a product with sustainably sourced palm oil.
+                      </p>
+
                       <ul class="help-list list-unstyled">
                           <li>
-                              <i class="fa fa-arrow-circle-right"></i> Send letters to the companies who choose not to support rainforest friendly palm oil. CMZ tool kit.
+                              <i class="fa fa-arrow-circle-right"></i> Send letters to the companies who choose not to support rainforest friendly palm oil.
                           </li>
                           <li>
                               <i class="fa fa-arrow-circle-right"></i> Send letters to sustainable companies thanking them for their choice to avoid unsustainable. This decision is not cheap for the company, and your gratitude will help them continue to do the right thing.
                           </li>
                           <li>
-                              <i class="fa fa-arrow-circle-right"></i> CMZ tool kit
-                          </li>
-                          <li>
                               <i class="fa fa-arrow-circle-right"></i> Donate directly to the Bornean and Sumatra rehabilitation centers. These places are dependent solely on charitable donations. Without people like you caring about their success, they can not help the future of the orangutans.
                           </li>
                           <li>
-                              <i class="fa fa-arrow-circle-right"></i> Supporting your local AZA accredited Zoo is another easy way to directly supportlocal and global conservation.
+                              <i class="fa fa-arrow-circle-right"></i> Supporting your <a href="https://www.aza.org/find-a-zoo-or-aquarium" target="_blank">local AZA accredited Zoo</a> is another easy way to directly support local and global conservation.
                           </li>
                       </ul>
                   </div>
@@ -289,12 +317,14 @@
           </div>
       </section>
 
+      <?php date_default_timezone_set('America/New_York'); ?>
       <footer class="text-center">
-          <p>&copy; Helping Hominids</p>
+          <p>&copy; <?php echo date('Y'); ?> Helping Hominids</p>
       </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/classie.js"></script>
+    <script src="js/scrollie.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/background/core.js"></script>
     <script src="js/background/transition.js"></script>

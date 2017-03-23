@@ -9,6 +9,7 @@ body {
     color: #222;
     font-family: 'Open Sans', serif;
     font-size: 16px;
+    transition: background 1s ease;
 }
 
 .mauto {
@@ -65,6 +66,14 @@ button.round,
 .teal {
     color: #93d8ca;
 }
+.small_hr {
+    border-bottom: 2px solid #93d8ca;
+    max-width: 200px;
+}
+
+img {
+    max-width: 100%;
+}
 
 
 /************************
@@ -90,12 +99,16 @@ If Form Submitted
     margin-top: 70px;
 }
 
+p {
+    line-height: 1.8;
+}
+
 
 /************************
 Navigation
 ************************/
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     border: none;
 }
 
@@ -121,14 +134,24 @@ Navigation
     margin-top: 10px;
 }
 
+.logo {
+    float: left;
+    vertical-align: middle;
+    padding-top: 8px;
+}
+
+.navbar-brand {
+    margin-left: 15px !important;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
 
 /************************
 Video Background Section
 ************************/
-.big-play{
-    max-width: 200px;
-}
-
 .video {
     height: 600px;
     width: 100%;
@@ -183,7 +206,6 @@ Mission Statement
 #mission-statement {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(/img/concrete_seamless.png);
 }
 
 #mission-statement p {
@@ -218,14 +240,21 @@ Mission Statement
 Orangutan Callout
 ************************/
 #orangutan-callout {
-    background-image: url(/img/sick-orang.jpg);
+    background-image: url(/img/orangutan3.jpg);
     background-attachment: fixed;
     padding: 50px 0;
     background-size: cover;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
+    background-position: center;
+    color: #222;
+    font-weight: normal;
+    font-size: 20px;
     text-align: center;
+}
+
+#orangutan-callout .container .row {
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 5px;
+    padding: 50px 30px;
 }
 
 .deaths-container {
@@ -239,7 +268,6 @@ Orangutan Callout
 
 .about-orang-p {
     margin-bottom: 0;
-    margin-top: 20px;
 }
 
 
@@ -269,12 +297,16 @@ Statistics / Charts
     padding-top: 15px;
 }
 
+.charts3-ol li {
+    display: inline-block !important;
+    padding: 0 5px;
+}
+
 .charts p {
     padding-top: 15px;
 }
 
 #statistics {
-    background-color: white;
     padding: 50px 0;
 }
 
@@ -284,6 +316,30 @@ Statistics / Charts
     border-bottom: 2px solid #222;
     display: inline-block;
     padding: 0;
+    padding-bottom: 5px;
+}
+
+
+/************************
+Gif
+************************/
+#gif {
+    padding: 50px 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#gif p {
+    margin-bottom: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0px 0px 5px 5px;
+    line-height: 2;
+}
+
+#forest-gif {
+    border-radius: 5px 5px 0 0;
 }
 
 
@@ -291,22 +347,25 @@ Statistics / Charts
 Environment Callout
 ************************/
 #environment-callout {
-    background-image: url(/img/tropicalforest.jpg);
+    background-image: url(/img/forest_dead.jpg);
+    background-size: cover;
     background-attachment: fixed;
     padding: 50px 0;
-    background-size: cover;
     color: white;
-    font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
 #environment-callout p {
     margin-bottom: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    line-height: 2;
 }
 
 .environment-list li {
-    line-height: 1.3;
+    line-height: 1.5;
     padding-bottom: 20px;
 }
 
@@ -328,14 +387,13 @@ Environment Effects
 #environment-effects {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(/img/concrete_seamless.png);
+    /*background-image: url(/img/concrete_seamless.png);*/
 }
 
 
 /************************
 Palm Oil
 ************************/
-
 #palm-oil h2 {
     margin-bottom: 20px;;
     border-bottom: 2px solid #222;
@@ -370,6 +428,21 @@ Palm Oil
     font-size: 30px;
 }
 
+#soap {
+    background-image: url(/img/soap.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: all 1s ease;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+#soap:hover {
+    opacity: 1;
+}
+
 
 /************************
 How You Can Help
@@ -377,7 +450,7 @@ How You Can Help
 #you-help {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(/img/concrete_seamless.png);
+    /*background-image: url(/img/concrete_seamless.png);*/
     font-size: 22px;
     line-height: 1.6;
 }
@@ -441,8 +514,19 @@ Media Queries
         font-size: 24px;
     }
 
-    #enviroment-callout {
-        font-size: 20px;
+    #environment-callout p,
+    #gif p,
+    #palm-oil p,
+    .environment-list li,
+    #you-help p,
+    #you-help ul li {
+        font-size: 18px !important;
+        text-align: center;
+    }
+
+    #orangutan-callout .container .row {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     #mission-statement span {
@@ -450,7 +534,13 @@ Media Queries
     }
 
     #mission-statement p {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .chart1,
+    .chart2,
+    .chart3 {
+        margin-bottom: 40px;
     }
 
 }
@@ -490,20 +580,35 @@ Media Queries
         font-size: 24px;
     }
 
-    #environment-callout,
     #mission-statement,
-    #orangutan-callout {
-        padding: 180px 0;
+    #environment-effects {
+        padding: 100px 0;
+    }
+
+    #you-help {
+        margin: 100px 0;
+    }
+
+    #environment-callout,
+    #orangutan-callout,
+    #gif,
+    #statistics {
+        padding: 200px 0;
     }
 
     #statistics h2,
     #palm-oil h2,
     #environment-effects h2 {
         margin-bottom: 50px;
+        padding-bottom: 5px;
     }
 
     .environment-list li {
         font-size: 22px;
+    }
+
+    #palm-oil p {
+        font-size: 20px;
     }
 
     .chart1,

@@ -1,13 +1,31 @@
-// Bar Graph to show coco vs palm
+// Bar Graph to show decrease of orangutans
+$( window ).ready(function() {
+
+    $('.slide')
+      .scrollie({
+        scrollOffset : 0,
+        scrollingInView : function(elem) {
+
+          var bgColor = elem.data('background');
+
+          $('body').css('background-color', bgColor);
+
+        }
+      });
+
+  });
+
+
+// Bar Graph to show decrease of orangutans
 var data = {
-    labels : ["Coconut Oil","Palm Oil"],
+    labels : ["1917","2017"],
     datasets : [
         {
             fillColor : "rgba(234,109,108, .8)",
             strokeColor : "rgba(234,109,108, .9)",
             highlightFill: "rgba(147,216,202, .8)",
             highlightStroke: "rgba(147,216,202, .9)",
-            data : [.80,5]
+            data : [230000,55613]
         }
     ]
 
@@ -83,7 +101,6 @@ window.setInterval(function(){
          var $elem = $(elem);
          var count = parseInt($elem.html().replace(/,/g, ''));
          var random = Math.floor(Math.random() * 5);
-         console.log(random);
          count = count - random;
          $elem.html(formatNumber(count));
     });
