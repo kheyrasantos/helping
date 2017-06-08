@@ -1,3 +1,20 @@
+// Cool Effect on what palm oil is in
+$('.palm-oil-thing').each(function(){
+    $(this).on('click tap', function() {
+        $(this).children().first().toggle();
+        $(this).children().last().toggleClass('opacity1');
+        $(this).children().last().find('.palm-bg').toggleClass('palmHeight');
+    });
+});
+
+$('.palm-oil-thing').each(function(){
+    $(this).hover(function() {
+        $(this).children().first().toggle();
+        $(this).children().last().toggleClass('opacity1');
+        $(this).children().last().find('.palm-bg').toggleClass('palmHeight');
+    });
+});
+
 // Bar Graph to show decrease of orangutans
 $( window ).ready(function() {
 
@@ -13,7 +30,9 @@ $( window ).ready(function() {
         }
       });
 
-  });
+      new WOW().init();
+
+ });
 
 
 // Bar Graph to show decrease of orangutans

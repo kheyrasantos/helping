@@ -59,13 +59,28 @@ button.round,
     display: block;
 }
 
-.red {
+.red,
+a.red:visited {
     color: #ea6d6c;
 }
 
+a.red:hover,
+a.red:active,
+a.red:focus {
+    color: #fb7e7d;
+}
+
+a.teal:visited,
 .teal {
     color: #93d8ca;
 }
+
+a.teal:hover,
+a.teal:active,
+a.teal:focus {
+    color: #a4e9db;
+}
+
 .small_hr {
     border-bottom: 2px solid #93d8ca;
     max-width: 200px;
@@ -73,6 +88,14 @@ button.round,
 
 img {
     max-width: 100%;
+}
+
+a {
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -153,7 +176,7 @@ Navigation
 Video Background Section
 ************************/
 .video {
-    height: 600px;
+    height: 700px;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -226,7 +249,7 @@ Mission Statement
 .highlight-container .lead {
     padding-top: 15px;
     margin-bottom: 0;
-    font-size: 22px !important;
+    font-size: 21px !important;
     line-height: 1.5 !important;
     display: inline-block;
 }
@@ -240,7 +263,7 @@ Mission Statement
 Orangutan Callout
 ************************/
 #orangutan-callout {
-    background-image: url(/img/orangutan3.jpg);
+    background-image: url(/img/orangutan4.jpg);
     background-attachment: fixed;
     padding: 50px 0;
     background-size: cover;
@@ -252,7 +275,7 @@ Orangutan Callout
 }
 
 #orangutan-callout .container .row {
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     padding: 50px 30px;
 }
@@ -347,7 +370,7 @@ Gif
 Environment Callout
 ************************/
 #environment-callout {
-    background-image: url(/img/forest_dead.jpg);
+    background-image: url(/img/logs.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 50px 0;
@@ -357,6 +380,24 @@ Environment Callout
 }
 
 #environment-callout p {
+    margin-bottom: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    line-height: 2;
+}
+
+#environment-callout2 {
+    background-image: url(/img/deforest2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#environment-callout2 p {
     margin-bottom: 0;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -384,7 +425,8 @@ Environment Effects
     padding: 0px;
 }
 
-#environment-effects {
+#environment-effects,
+#contact {
     padding-top: 50px;
     padding-bottom: 50px;
     /*background-image: url(/img/concrete_seamless.png);*/
@@ -406,14 +448,24 @@ Palm Oil
     padding-bottom: 50px;
 }
 
+#palm-oil p {
+    font-size: 18px;
+}
+
 .palm-oil-thing {
     width: 100%;
-    height: 200px;
+    height: 100%;
+    min-height: 250px;
     background-color: #93d8ca;
     margin-top: 15px;
     margin-bottom: 15px;
     position: relative;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.palm-oil-thing:hover {
+    cursor: pointer;
 }
 
 .palm-oil-thing span {
@@ -426,21 +478,74 @@ Palm Oil
     font-weight: bold;
     color: white;
     font-size: 30px;
+    transition: all 0.3s ease;
 }
 
 #soap {
     background-image: url(/img/soap.png);
+}
+
+.palm-bg {
     background-size: cover;
     background-position: center;
-    opacity: 0;
-    transition: all 1s ease;
     z-index: 5;
     height: 100%;
     width: 100%;
+    opacity: 1;
+    display: block;
 }
 
-#soap:hover {
-    opacity: 1;
+.palm-oil-thing .image-text-container {
+    padding: 10px;
+    margin-left: auto;
+    margin-left: auto;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.palm-oil-thing .image-text-container p {
+    line-height: 1.6;
+}
+
+.opacity1 {
+    opacity: 1 !important;
+}
+
+.palmHeight {
+    height: 250px;
+}
+
+
+/************************
+Many Products
+************************/
+#many-products {
+    background-color: #ea6d6c;
+}
+
+.palm-ingredients {
+    margin-bottom: 0;
+}
+
+.palm-ingredients li {
+    display: inline-block;
+    margin: 7px 5px;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.palm-ingredients li:hover {
+    border: 2px color white;
+    color: #ea6d6c;
+    background-color: white;
+    cursor: default;
+}
+
+.white {
+    color: white;
 }
 
 
@@ -450,13 +555,66 @@ How You Can Help
 #you-help {
     padding-top: 50px;
     padding-bottom: 50px;
-    /*background-image: url(/img/concrete_seamless.png);*/
+    background-image: url(/img/tropical-forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 22px;
     line-height: 1.6;
+    color: white;
 }
 
 #you-help ul li {
     padding-bottom: 15px;
+}
+
+#you-help .section-title {
+    border-bottom: 2px solid #fff;
+}
+
+
+/************************
+Contact Form
+************************/
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    border: 1px solid #efefef;
+    font-size: 18px;
+}
+
+.questions-p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.contact-form input {
+    height: 45px;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit-button {
+    font-size: 20px;
+    padding: 12px 30px;
+    font-weight: bold;
+    background-color: #82c7b9;
+    border: none;
+    transition: all 0.3s;
+}
+
+#submit-button:hover {
+    background-color: #93d8ca;
 }
 
 
@@ -490,12 +648,12 @@ Media Queries
     }
 
     .video {
-        height: 55% !important;
+        height: 400px !important;
         padding: 30px 0;
     }
 
     .intro-content {
-        top: 20%;
+        top: 30%;
     }
 
     .intro-content h1 {
@@ -506,7 +664,8 @@ Media Queries
 
     #statistics h2,
     #palm-oil h2,
-    #environment-effects h2 {
+    #environment-effects h2
+    #contact h2 {
         font-size: 1.8em;
     }
 
@@ -515,13 +674,18 @@ Media Queries
     }
 
     #environment-callout p,
+    #environment-callout2 p,
     #gif p,
     #palm-oil p,
     .environment-list li,
     #you-help p,
     #you-help ul li {
-        font-size: 18px !important;
+        font-size: 16px !important;
         text-align: center;
+    }
+
+    #environment-callout2 p {
+        padding: 20px;
     }
 
     #orangutan-callout .container .row {
@@ -529,18 +693,26 @@ Media Queries
         margin-right: 5px;
     }
 
+    .about-orang-p {
+        font-size: 17px;
+    }
+
     #mission-statement span {
         font-size: 22px;
     }
 
     #mission-statement p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .chart1,
     .chart2,
     .chart3 {
         margin-bottom: 40px;
+    }
+
+    .palm-ingredients {
+        margin-right: 0;
     }
 
 }
@@ -581,7 +753,8 @@ Media Queries
     }
 
     #mission-statement,
-    #environment-effects {
+    #environment-effects,
+    #contact {
         padding: 100px 0;
     }
 
@@ -590,9 +763,13 @@ Media Queries
     }
 
     #environment-callout,
-    #orangutan-callout,
-    #gif,
-    #statistics {
+    #environment-callout2,
+    #gif, #statistics,
+    #many-products {
+        padding: 150px 0;
+    }
+
+    #orangutan-callout {
         padding: 200px 0;
     }
 

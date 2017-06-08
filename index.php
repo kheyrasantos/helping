@@ -13,12 +13,20 @@
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" media="screen" href="/css/background/background.css">
+    <link rel="stylesheet" media="screen" href="/css/animate.css">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- App CSS -->
     <link rel="stylesheet" href="css/app.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/img/favicons/manifest.json">
+    <meta name="theme-color" content="#ffffff">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -61,25 +69,25 @@
           <div class="intro-content">
               <h1 class="text-center text-uppercase"><strong>Save the rainforest<br /><span class="teal">save yourself</span></strong></h1>
               <hr class="colored">
-              <h2 class="text-center text-uppercase strong">Be aware of unsustainably sourced Palm Oil</h2>
+              <h2 class="text-center text-uppercase strong">Be aware of unsustainably sourced palm oil</h2>
           </div>
       </div>
 
       <!-- Mission Statement -->
       <section id="mission-statement" class="slide" data-background="#fff">
           <div class="container">
-              <div class="row text-center">
+              <div class="row text-center wow fadeIn">
                   <div class="col-md-8 col-md-offset-2">
                       <div class="text-center">
                           <div class="highlight-container clearfix">
                              <!-- <i class="fa fa-quote-left float-left"></i> -->
-                              <p class="lead strong">Humans will not be without consequence if we continue on this trajectory of deforestation.</p>
+                              <p class="lead strong">Humans will not be without consequence if they continue on this trajectory of deforestation.</p>
 
                               <hr class="small_hr" />
                              <!-- <i class="fa fa-quote-right float-right"></i>-->
                           </div>
                           <p>
-                            The rainforest regulates the quality of the planet’s air, water, and climate. This massive ecosystem is already almost gone. If it disappears it can not be grown back. A monoculture of palm oil trees will deplete the nutrients in the soil, flood the local villages due to erosion, and eliminate all of the wild animals within it. You may not think this affects your daily life, or be nay reason for concern except for the unlucky rhinos, tigers, and orangutans. Humans will not be without consequence if we continue on this trajectory of deforestation. The rainforest works as a carbon dioxide filter for the globe. Without the rainforests, we will lose the quality of our air, water, and, climate.
+                            The rainforest regulates the quality of the planet’s air, water, and climate. This massive ecosystem is already almost gone; if it disappears, it cannot be grown back. A monoculture of oil palm trees depletes the nutrients in the soil, floods the local villages due to erosion, and eliminates all of the wild animals within it. You may not think this affects your daily life, or be any reason for concern, except for the unlucky rhinos, tigers, and orangutans, but humans will not be without consequence if we continue on this trajectory of deforestation. The rainforest works as a carbon dioxide filter for the globe. Without the rainforests, we will lose the quality of our air, water, climate, and life.
                           </p>
                       </div>
                   </div>
@@ -88,44 +96,12 @@
       </section>
 
       <!-- Environment Callout -->
-      <section id="environment-callout">
-          <div class="container">
+      <section id="environment-callout2">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-md-10 col-md-offset-1 clearfix">
                       <p>
-                        Burning to remove the forest is releasing copious amounts of carbon dioxide into the atmosphere. It is not only removing the planet’s air filter, but the peat swamp that the tropical rainforest sits on is packed with CO<sub>2</sub>. The atmosphere holds these greenhouse gasses and is changing the earth’s climate. Burning the forest to grow our palm oil is not only affecting our atmosphere, it is burning the animals inside them.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Gif Callout -->
-      <section id="gif" class="slide" data-background="#93d8ca">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
-                      <img id="forest-gif" src="/img/forest_disappearing.gif" alt="Forest disappearing gif" />
-                  </div>
-                  <div class="col-md-12 text-center">
-                      <p>
-                        The Indonesian and Malaysian rainforests are being used for the planting of Palm Oil plantations more than any other countries in the world. Indonesia and Malaysia are the only two countries in the world orangutans are found. The world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of money other countries are funneling into the plantations. Countries like the United States.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Orangutan Callout -->
-      <section id="orangutan-callout">
-          <div class="container">
-              <div class="row text-center">
-                  <div class="col-md-5 columns">
-                      <p class="text-center deaths-container strong"><span class="deaths break red">55,613</span> orangutans remaining</p>
-                  </div>
-                  <div class="col-md-7 columns">
-                      <p class="about-orang-p">
-                          Orangutans are being burnt alive because they are in the way of the production of your favorite shampoo. They are dying each day and are on the brink of extinction due to the high demand for palm oil.
+                        Burning to remove the rainforests is releasing copious amounts of carbon dioxide into the atmosphere. It is not only removing the planet’s air filter, but the peat swamp that the tropical rainforest sits on is packed with CO<sub>2</sub>. The atmosphere holds these greenhouse gasses and is changing the Earth’s climate. Burning the rainforest to grow our palm oil is not only affecting our atmosphere, it is burning the animals inside them.
                       </p>
                   </div>
               </div>
@@ -135,14 +111,14 @@
       <!-- Palm Oil -->
       <section id="palm-oil" class="slide" data-background="#fff">
 
-          <div class="container">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="section-container text-uppercase strong text-center">
                       <h2 class="text-uppercase">Palm Oil?</h2>
                   </div>
                   <div class="col-sm-12 col-md-12">
                       <p class="line-height">
-                          This deforestation is caused by everybody. It is not the Indonesian and Malaysian people who are choosing to log the forest until its gone. It is us. Every day millions of people shop in the grocery store. Palm oil lines the shelves of every single grocery store. Palm oil is a type of vegetable oil used in things like butter, milk, shampoo, makeup, chocolate.  Companies use it as an ingredient because it is cheap to grow and efficiently grown in comparison to other oils such as coconut oil. The palm oil tree has a long life span and produces much more fruit each harvest than any other oil.
+                          This deforestation is caused by everyone. It is not the Indonesian and Malaysian people who are choosing to log the rainforest until it's gone; it is us. Every day, millions of people shop in the grocery store, palm oil lining the shelves of every single grocery store. Palm oil is a type of vegetable oil used in things like butter, milk, shampoo, makeup, chocolate. Companies use it as an ingredient because it is inexpensive to grow and also efficiently grown in comparison to other oils, such as coconut oil. The oil palm tree has a long life span and produces much more fruit each harvest than any other oil.
                       </p>
                   </div>
               </div>
@@ -159,30 +135,91 @@
           <div class="container">
               <div class="row">
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing" id="icecream"><span>Ice Cream</span></div>
+                      <div class="palm-oil-thing" id="icecream">
+                          <span>Ice Cream</span>
+                          <div class="image-text-container">
+                              <div id="icecream"></div>
+                              <p>
+                                  Palm oil makes ice cream creamy and smooth.
+                              </p>
+                          </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Pizza</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Pizza</span>
+                          <div class="image-text-container">
+                              <div id="pizza"></div>
+                              <p>
+                                  Palm oil helps both frozen and fresh pizza dough enhance their texture and also from sticking together.
+                              </p>
+                          </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Shampoo</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Shampoo</span>
+                              <div class="image-text-container">
+                                  <div id="shampoo"></div>
+                                  <p>
+                                      Palm oil helps restore the natural oils in hair that are removed by most other shampoos.
+                                  </p>
+                              </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Butter</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Butter</span>
+                            <div class="image-text-container">
+                                <div id="butter"></div>
+                                <p>
+                                    Palm oil is free of trans fat and is also solid at room temperature which is great for butter.
+                                </p>
+                            </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Detergent</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Detergent</span>
+                          <div class="image-text-container">
+                            <div id="detergent"></div>
+                                <p>
+                                    Palm oil is included in soaps, washing powder, shampoo, and other cleaning products.
+                                </p>
+                            </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Chocolate</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Chocolate</span>
+                          <div class="image-text-container">
+                              <div id="chocolate"></div>
+                              <p>
+                                  Palm oil has a high melting point so it helps keep the chocolate from melting. It also creates a smooth and shiny appearance to chocolate.
+                              </p>
+                          </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing"><span>Cookies</span></div>
+                      <div class="palm-oil-thing">
+                          <span>Cookies</span>
+                          <div class="image-text-container">
+                              <div id="cookies"></div>
+                              <p>
+                                  Palm oil gives baked goods a smooth and velvety taste and texture.
+                              </p>
+                          </div>
+                      </div>
                   </div>
                   <div class="col-sm-6 col-md-3 columns">
                       <div class="palm-oil-thing">
                           <span>Soap</span>
-                          <div id="soap"></div>
+                          <div class="image-text-container">
+                              <div id="soap" class="palm-bg"></div>
+                              <p>
+                                  Palm oil has an ability to remove dirt and oil from your body as well as helps you moisturize.
+                              </p>
+                          </div>
                       </div>
                   </div>
               </div>
@@ -197,13 +234,133 @@
           </div>
       </section>
 
+      <!-- Many Products -->
+      <section id="many-products" class="slide text-center" data-background="#ea6d6c">
+          <div class="container">
+              <div class="row">
+                  <p class="white lead wow fadeIn">
+                      There are many products that use palm oil that are not clearly labeled. Palm oil and its derivaties appear under many names, but they all contain palm oil.
+                  </p>
+                  <ul class="no-bullet palm-ingredients text-capitalize no-bullet">
+                      <li class="wow fadeIn">
+                          Vegatable oil
+                      </li>
+                      <li class="wow fadeIn">
+                          Vegetable Fat
+                      </li>
+                      <li class="wow fadeIn">
+                          Palm Kernel
+                      </li>
+                      <li class="wow fadeIn">
+                          Palm Kernel Oil
+                      </li>
+                      <li class="wow fadeIn">
+                          Palm Fruit Oil
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmate
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmitate
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmolein
+                      </li>
+                      <li class="wow fadeIn">
+                          Glyceryl
+                      </li>
+                      <li class="wow fadeIn">
+                          Stearate
+                      </li>
+                      <li class="wow fadeIn">
+                          Stearic Acid
+                      </li>
+                      <li class="wow fadeIn">
+                          Elaeis Guineensis
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmitic Acid
+                      </li>
+                      <li class="wow fadeIn">
+                          Palm Stearine
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmitoyl Oxostearamide
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmitoyl Tetrapeptide-3
+                      </li>
+                      <li class="wow fadeIn">
+                          Sodium Laureth Sulfate
+                      </li>
+                      <li>
+                          Sodium Lauryl Sulfate
+                      </li>
+                      <li class="wow fadeIn">
+                          Sodium Kernelate
+                      </li>
+                      <li class="wow fadeIn">
+                          Sodium Palm Kernelate
+                      </li>
+                      <li class="wow fadeIn">
+                          Sodium Lauryl Lactylate/Sulphate
+                      </li>
+                      <li class="wow fadeIn">
+                          Hyrated Palm Glycerides
+                      </li>
+                      <li class="wow fadeIn">
+                          Etyl Palmitate
+                      </li>
+                      <li class="wow fadeIn">
+                          Octyl Palmitate
+                      </li>
+                      <li class="wow fadeIn">
+                          Palmityl Alcohol
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+      <!-- Orangutan Callout -->
+      <section id="orangutan-callout">
+          <div class="container wow fadeIn">
+              <div class="row text-center">
+                  <div class="col-md-5 columns">
+                      <p class="text-center deaths-container strong"><span class="deaths break red">55,613</span> orangutans remaining</p>
+                  </div>
+                  <div class="col-md-7 columns">
+                      <p class="about-orang-p">
+                          Orangutans are being burned alive because they are in the way of the production of your favorite shampoo. They are dying each day and are on the brink of extinction due to the high demand for palm oil.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Gif Callout -->
+      <section id="gif" class="slide" data-background="#93d8ca">
+          <div class="container wow fadeIn">
+              <div class="row">
+                  <div class="col-md-12">
+                      <img id="forest-gif" src="/img/forest_disappearing.gif" alt="Forest disappearing gif" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                      <p>
+                        The Indonesian and Malaysian rainforests are being used for the planting of oil palm plantations more than any other countries in the world. Indonesia and Malaysia are the only two countries in the world orangutans are found. The world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of money other countries are funneling into the plantations. Countries like the United States.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
       <!-- Environment Callout -->
       <section id="environment-callout">
-          <div class="container">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-md-10 col-md-offset-1 clearfix">
                       <p>
-                        The topical rainforest spans the equator crossing South America, Africa and Southeast Asia. Palm oil grows best in this type of humid lowland forest. The Indonesian and Malaysian rainforests are being used for the planting of Palm Oil plantations more than any other countries in the world. Indonesia and Malaysia are the only two countries in the world orangutans are found. The world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of money other countries are funneling into the plantations. Countries like the United States.
+                         Indonesia and Malaysia are the only two countries in the world orangutans are found and the world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of funds other countries are funneling into the plantations, countries like the United States. These tropical rainforest span the equator crossing South America, Africa, and Southeast Asia. Palm oil grows best in this type of humid lowland forest. The Indonesian and Malaysian rainforests are being used for the planting of oil palm plantations more than any other country in the world.
                       </p>
                   </div>
               </div>
@@ -212,7 +369,7 @@
 
       <!-- Environment Effects -->
       <section id="environment-effects" class="slide" data-background="#ea6d6c">
-          <div class="container">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-md-12">
                       <div class="section-container text-uppercase strong text-center">
@@ -226,9 +383,9 @@
               <div class="row">
                   <div class="col-sm-12 col-md-6 columns">
                       <ul class="list-unstyled environment-list">
-                          <li><i class="fa fa-globe"></i> Demand for palm has gotten so high, companies are now clear cutting primary, old forests</li>
+                          <li><i class="fa fa-globe"></i> Demand for palm oil has gotten so high, companies are now clear cutting primary, old forests</li>
                           <li><i class="fa fa-globe"></i> Orangutans' natural habitat are the treetops of the Southeast Asian forests</li>
-                          <li><i class="fa fa-globe"></i> Nothing can live on a palm oil plantation</li>
+                          <li><i class="fa fa-globe"></i> Nothing can live on a oil palm plantation</li>
                           <li>
                               <i class="fa fa-globe"></i> If orangutans stumble upon these plantations, farmers murder the mothers
                               and sell the babies into the pet trade
@@ -244,7 +401,7 @@
 
       <!-- Statistics -->
       <section id="statistics" class="slide" data-background="#fff">
-          <div class="container">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-md-12">
                       <div class="section-container text-uppercase strong text-center">
@@ -254,7 +411,7 @@
               </div>
           </div>
 
-          <div class="container">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-sm-12 col-md-12 columns">
                       <div class="charts text-center clearfix">
@@ -287,7 +444,7 @@
 
       <!-- How You Can Help -->
       <section id="you-help" class="slide" data-background="#93d8ca">
-          <div class="container">
+          <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-md-12">
                       <div class="text-center">
@@ -295,12 +452,12 @@
                       </div>
 
                       <p class="text-center" style="margin-bottom: 25px;">
-                          <strong>Not all hope is lost!</strong> There are companies who chose to avoid supporting cheap, fast growth of their palm oil. Plantations who reuse the already deforested land are growing sustainable palm oil. <a href="http://www.rspo.org/members/all" target="_blank">RSPO</a> helps you know if you are buying a product with sustainably sourced palm oil.
+                          <strong>Not all hope is lost!</strong> There are companies who chose to avoid supporting cheap, fast growth of their palm oil. Plantations who reuse the already deforested land are growing sustainable palm oil. <a class="red" href="http://www.rspo.org/members/all" target="_blank">RSPO</a> helps you know if you are buying a product with sustainably sourced palm oil.
                       </p>
 
                       <ul class="help-list list-unstyled">
                           <li>
-                              <i class="fa fa-arrow-circle-right"></i> Send letters to the companies who choose not to support rainforest friendly palm oil.
+                              <i class="fa fa-arrow-circle-right"></i> Send <a class="red" href="/docs/rspo-letter.docx" target="_blank">letters</a> to the companies who choose not to support rainforest friendly palm oil.
                           </li>
                           <li>
                               <i class="fa fa-arrow-circle-right"></i> Send letters to sustainable companies thanking them for their choice to avoid unsustainable. This decision is not cheap for the company, and your gratitude will help them continue to do the right thing.
@@ -309,9 +466,34 @@
                               <i class="fa fa-arrow-circle-right"></i> Donate directly to the Bornean and Sumatra rehabilitation centers. These places are dependent solely on charitable donations. Without people like you caring about their success, they can not help the future of the orangutans.
                           </li>
                           <li>
-                              <i class="fa fa-arrow-circle-right"></i> Supporting your <a href="https://www.aza.org/find-a-zoo-or-aquarium" target="_blank">local AZA accredited Zoo</a> is another easy way to directly support local and global conservation.
+                              <i class="fa fa-arrow-circle-right"></i> Supporting your <a class="red" href="https://www.aza.org/find-a-zoo-or-aquarium" target="_blank">local AZA accredited Zoo</a> is another easy way to directly support local and global conservation.
                           </li>
                       </ul>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="contact" class="slide" data-background="#ea6d6c">
+          <div class="container wow fadeIn">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="text-center">
+                          <h2 class="section-title text-capitalize text-center">Contact Us</h2>
+                      </div>
+                      <p class="text-center questions-p">Have questions? Feel free to contact us with more information!</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <form action="" class="contact-form">
+                          <input type="text" name="name" id="name" placeholder="Name">
+                          <input type="email" name="email" id="email" placeholder="email@example.com">
+                          <textarea id="message" name="message" placeholder="Message"></textarea>
+                          <div class="text-right">
+                              <a href="#" class="btn btn-primary" id="submit-button">SUBMIT</a>
+                          </div>
+                      </form>
                   </div>
               </div>
           </div>
@@ -330,6 +512,7 @@
     <script src="js/background/transition.js"></script>
     <script src="js/background/background.js"></script>
     <script src="js/Chart.js"></script>
+    <script src="js/vendor/wow/wow.js"></script>
     <script src="js/videobackground.js"></script>
     <script src="js/app.js"></script>
     <script src="js/bootstrap.min.js"></script>
