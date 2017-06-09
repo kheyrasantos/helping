@@ -57,6 +57,7 @@
               <li><a class="page-scroll" href="#palm-oil">Palm Oil?</a></li>
               <li><a class="page-scroll" href="#statistics">Statistics</a></li>
               <li><a class="page-scroll" href="#you-help">How to Help</a></li>
+              <li><a class="page-scroll" href="#contact">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -80,11 +81,8 @@
                   <div class="col-md-8 col-md-offset-2">
                       <div class="text-center">
                           <div class="highlight-container clearfix">
-                             <!-- <i class="fa fa-quote-left float-left"></i> -->
                               <p class="lead strong">Humans will not be without consequence if they continue on this trajectory of deforestation.</p>
-
                               <hr class="small_hr" />
-                             <!-- <i class="fa fa-quote-right float-right"></i>-->
                           </div>
                           <p>
                             The rainforest regulates the quality of the planet’s air, water, and climate. This massive ecosystem is already almost gone; if it disappears, it cannot be grown back. A monoculture of oil palm trees depletes the nutrients in the soil, floods the local villages due to erosion, and eliminates all of the wild animals within it. You may not think this affects your daily life, or be any reason for concern, except for the unlucky rhinos, tigers, and orangutans, but humans will not be without consequence if we continue on this trajectory of deforestation. The rainforest works as a carbon dioxide filter for the globe. Without the rainforests, we will lose the quality of our air, water, climate, and life.
@@ -101,7 +99,7 @@
               <div class="row">
                   <div class="col-md-10 col-md-offset-1 clearfix">
                       <p>
-                        Burning to remove the rainforests is releasing copious amounts of carbon dioxide into the atmosphere. It is not only removing the planet’s air filter, but the peat swamp that the tropical rainforest sits on is packed with CO<sub>2</sub>. The atmosphere holds these greenhouse gasses and is changing the Earth’s climate. Burning the rainforest to grow our palm oil is not only affecting our atmosphere, it is burning the animals inside them.
+                        Burning to remove the rainforests is releasing copious amounts of carbon dioxide into the atmosphere. It is not only removing the planet’s air filter, but the peat swamp that the tropical rainforest sits on is packed with CO<sub>2</sub>. The atmosphere holds this greenhouse gas and is changing the Earth’s climate. Burning the rainforest to grow our palm oil is not only affecting our atmosphere, it is burning the animals inside them.
                       </p>
                   </div>
               </div>
@@ -118,7 +116,7 @@
                   </div>
                   <div class="col-sm-12 col-md-12">
                       <p class="line-height">
-                          This deforestation is caused by everyone. It is not the Indonesian and Malaysian people who are choosing to log the rainforest until it's gone; it is us. Every day, millions of people shop in the grocery store, palm oil lining the shelves of every single grocery store. Palm oil is a type of vegetable oil used in things like butter, milk, shampoo, makeup, chocolate. Companies use it as an ingredient because it is inexpensive to grow and also efficiently grown in comparison to other oils, such as coconut oil. The oil palm tree has a long life span and produces much more fruit each harvest than any other oil.
+                          This deforestation is caused by everyone. It is not the Indonesian and Malaysian people who are choosing to log the rainforest until it's gone; it is us. Every day, millions of people shop in the grocery store, palm oil lining the shelves of its shelves. Palm oil is a type of vegetable oil used in things like butter, milk, shampoo, makeup, chocolate. Companies use it as an ingredient because it is inexpensive to grow and also efficiently grown in comparison to other oils, such as coconut oil. The oil palm tree has a long life span and produces much more fruit each harvest than any other tree.
                       </p>
                   </div>
               </div>
@@ -134,91 +132,85 @@
 
           <div class="container">
               <div class="row">
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing" id="icecream">
-                          <span>Ice Cream</span>
-                          <div class="image-text-container">
-                              <div id="icecream"></div>
-                              <p>
-                                  Palm oil makes ice cream creamy and smooth.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Pizza</span>
-                          <div class="image-text-container">
-                              <div id="pizza"></div>
-                              <p>
-                                  Palm oil helps both frozen and fresh pizza dough enhance their texture and also from sticking together.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Shampoo</span>
+                  <div class="col-md-12 columns text-center">
+                      <div class="masonry-container">
+                          <div class="palm-oil-thing" id="icecream">
+                              <span>Ice Cream</span>
                               <div class="image-text-container">
-                                  <div id="shampoo"></div>
+                                  <div id="icecream"></div>
                                   <p>
-                                      Palm oil helps restore the natural oils in hair that are removed by most other shampoos.
+                                      Palm oil makes ice cream creamy and smooth.
                                   </p>
                               </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Butter</span>
-                            <div class="image-text-container">
-                                <div id="butter"></div>
-                                <p>
-                                    Palm oil is free of trans fat and is also solid at room temperature which is great for butter.
-                                </p>
-                            </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Detergent</span>
-                          <div class="image-text-container">
-                            <div id="detergent"></div>
-                                <p>
-                                    Palm oil is included in soaps, washing powder, shampoo, and other cleaning products.
-                                </p>
-                            </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Chocolate</span>
-                          <div class="image-text-container">
-                              <div id="chocolate"></div>
-                              <p>
-                                  Palm oil has a high melting point so it helps keep the chocolate from melting. It also creates a smooth and shiny appearance to chocolate.
-                              </p>
                           </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Cookies</span>
-                          <div class="image-text-container">
-                              <div id="cookies"></div>
-                              <p>
-                                  Palm oil gives baked goods a smooth and velvety taste and texture.
-                              </p>
+
+                          <div class="palm-oil-thing">
+                              <span>Pizza</span>
+                              <div class="image-text-container">
+                                  <div id="pizza"></div>
+                                  <p>
+                                      Palm oil helps both frozen and fresh pizza dough enhance their texture and also from sticking together.
+                                  </p>
+                              </div>
                           </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 columns">
-                      <div class="palm-oil-thing">
-                          <span>Soap</span>
-                          <div class="image-text-container">
-                              <div id="soap" class="palm-bg"></div>
-                              <p>
-                                  Palm oil has an ability to remove dirt and oil from your body as well as helps you moisturize.
-                              </p>
+
+                          <div class="palm-oil-thing">
+                              <span>Shampoo</span>
+                                  <div class="image-text-container">
+                                      <div id="shampoo"></div>
+                                      <p>
+                                          Palm oil helps restore the natural oils in hair that are removed by most other shampoos.
+                                      </p>
+                                  </div>
+                          </div>
+
+                          <div class="palm-oil-thing">
+                              <span>Butter</span>
+                                <div class="image-text-container">
+                                    <div id="butter"></div>
+                                    <p>
+                                        Palm oil is free of trans fat and is also solid at room temperature, which is great for butter.
+                                    </p>
+                                </div>
+                          </div>
+
+                          <div class="palm-oil-thing">
+                              <span>Detergent</span>
+                              <div class="image-text-container">
+                                <div id="detergent"></div>
+                                    <p>
+                                        Palm oil is included in soaps, washing powder, shampoo, and other cleaning products.
+                                    </p>
+                                </div>
+                          </div>
+
+                          <div class="palm-oil-thing">
+                              <span>Chocolate</span>
+                              <div class="image-text-container">
+                                  <div id="chocolate"></div>
+                                  <p>
+                                      Palm oil has a high melting point so it helps keep the chocolate from melting. It also creates a smooth and shiny appearance to chocolate.
+                                  </p>
+                              </div>
+                          </div>
+
+                          <div class="palm-oil-thing">
+                              <span>Cookies</span>
+                              <div class="image-text-container">
+                                  <div id="cookies"></div>
+                                  <p>
+                                      Palm oil gives baked goods a smooth and velvety taste and texture.
+                                  </p>
+                              </div>
+                          </div>
+
+                          <div class="palm-oil-thing">
+                              <span>Soap</span>
+                              <div class="image-text-container">
+                                  <p>
+                                      Palm oil has an ability to remove dirt and oil from your body as well as helps you moisturize.
+                                  </p>
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -238,86 +230,88 @@
       <section id="many-products" class="slide text-center" data-background="#ea6d6c">
           <div class="container">
               <div class="row">
-                  <p class="white lead wow fadeIn">
-                      There are many products that use palm oil that are not clearly labeled. Palm oil and its derivaties appear under many names, but they all contain palm oil.
-                  </p>
-                  <ul class="no-bullet palm-ingredients text-capitalize no-bullet">
-                      <li class="wow fadeIn">
-                          Vegatable oil
-                      </li>
-                      <li class="wow fadeIn">
-                          Vegetable Fat
-                      </li>
-                      <li class="wow fadeIn">
-                          Palm Kernel
-                      </li>
-                      <li class="wow fadeIn">
-                          Palm Kernel Oil
-                      </li>
-                      <li class="wow fadeIn">
-                          Palm Fruit Oil
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmate
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmitate
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmolein
-                      </li>
-                      <li class="wow fadeIn">
-                          Glyceryl
-                      </li>
-                      <li class="wow fadeIn">
-                          Stearate
-                      </li>
-                      <li class="wow fadeIn">
-                          Stearic Acid
-                      </li>
-                      <li class="wow fadeIn">
-                          Elaeis Guineensis
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmitic Acid
-                      </li>
-                      <li class="wow fadeIn">
-                          Palm Stearine
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmitoyl Oxostearamide
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmitoyl Tetrapeptide-3
-                      </li>
-                      <li class="wow fadeIn">
-                          Sodium Laureth Sulfate
-                      </li>
-                      <li>
-                          Sodium Lauryl Sulfate
-                      </li>
-                      <li class="wow fadeIn">
-                          Sodium Kernelate
-                      </li>
-                      <li class="wow fadeIn">
-                          Sodium Palm Kernelate
-                      </li>
-                      <li class="wow fadeIn">
-                          Sodium Lauryl Lactylate/Sulphate
-                      </li>
-                      <li class="wow fadeIn">
-                          Hyrated Palm Glycerides
-                      </li>
-                      <li class="wow fadeIn">
-                          Etyl Palmitate
-                      </li>
-                      <li class="wow fadeIn">
-                          Octyl Palmitate
-                      </li>
-                      <li class="wow fadeIn">
-                          Palmityl Alcohol
-                      </li>
-                  </ul>
+                  <div class="col-md-12">
+                      <p class="white lead wow fadeIn">
+                          There are many products that use palm oil that are not clearly labeled. Palm oil and its derivaties appear under many names, but they all contain palm oil.
+                      </p>
+                      <ul class="no-bullet palm-ingredients text-capitalize no-bullet">
+                          <li class="wow fadeIn">
+                              Vegatable oil
+                          </li>
+                          <li class="wow fadeIn">
+                              Vegetable Fat
+                          </li>
+                          <li class="wow fadeIn">
+                              Palm Kernel
+                          </li>
+                          <li class="wow fadeIn">
+                              Palm Kernel Oil
+                          </li>
+                          <li class="wow fadeIn">
+                              Palm Fruit Oil
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmate
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmitate
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmolein
+                          </li>
+                          <li class="wow fadeIn">
+                              Glyceryl
+                          </li>
+                          <li class="wow fadeIn">
+                              Stearate
+                          </li>
+                          <li class="wow fadeIn">
+                              Stearic Acid
+                          </li>
+                          <li class="wow fadeIn">
+                              Elaeis Guineensis
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmitic Acid
+                          </li>
+                          <li class="wow fadeIn">
+                              Palm Stearine
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmitoyl Oxostearamide
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmitoyl Tetrapeptide-3
+                          </li>
+                          <li class="wow fadeIn">
+                              Sodium Laureth Sulfate
+                          </li>
+                          <li>
+                              Sodium Lauryl Sulfate
+                          </li>
+                          <li class="wow fadeIn">
+                              Sodium Kernelate
+                          </li>
+                          <li class="wow fadeIn">
+                              Sodium Palm Kernelate
+                          </li>
+                          <li class="wow fadeIn">
+                              Sodium Lauryl Lactylate/Sulphate
+                          </li>
+                          <li class="wow fadeIn">
+                              Hyrated Palm Glycerides
+                          </li>
+                          <li class="wow fadeIn">
+                              Etyl Palmitate
+                          </li>
+                          <li class="wow fadeIn">
+                              Octyl Palmitate
+                          </li>
+                          <li class="wow fadeIn">
+                              Palmityl Alcohol
+                          </li>
+                      </ul>
+                  </div>
               </div>
           </div>
       </section>
@@ -347,7 +341,7 @@
                   </div>
                   <div class="col-md-12 text-center">
                       <p>
-                        The Indonesian and Malaysian rainforests are being used for the planting of oil palm plantations more than any other countries in the world. Indonesia and Malaysia are the only two countries in the world orangutans are found. The world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of money other countries are funneling into the plantations. Countries like the United States.
+                        Indonesia and Malaysia are the only two countries in the world orangutans are found and the world has put a target on their only home. The protection of this ecosystem is not being controlled by the local government due to the amount of funds other countries are funneling into the plantations, countries like the United States. These tropical rainforest span the equator crossing South America, Africa, and Southeast Asia. Palm oil grows best in this type of humid lowland forest. The Indonesian and Malaysian rainforests are being used for the planting of oil palm plantations more than any other country in the world.
                       </p>
                   </div>
               </div>
@@ -385,7 +379,7 @@
                       <ul class="list-unstyled environment-list">
                           <li><i class="fa fa-globe"></i> Demand for palm oil has gotten so high, companies are now clear cutting primary, old forests</li>
                           <li><i class="fa fa-globe"></i> Orangutans' natural habitat are the treetops of the Southeast Asian forests</li>
-                          <li><i class="fa fa-globe"></i> Nothing can live on a oil palm plantation</li>
+                          <li><i class="fa fa-globe"></i> Nothing can live on an oil palm plantation</li>
                           <li>
                               <i class="fa fa-globe"></i> If orangutans stumble upon these plantations, farmers murder the mothers
                               and sell the babies into the pet trade
@@ -452,7 +446,7 @@
                       </div>
 
                       <p class="text-center" style="margin-bottom: 25px;">
-                          <strong>Not all hope is lost!</strong> There are companies who chose to avoid supporting cheap, fast growth of their palm oil. Plantations who reuse the already deforested land are growing sustainable palm oil. <a class="red" href="http://www.rspo.org/members/all" target="_blank">RSPO</a> helps you know if you are buying a product with sustainably sourced palm oil.
+                          <strong>Not all hope is lost!</strong> There are companies who choose to avoid supporting cheap, fast growth of their palm oil. Plantations who reuse the already deforested land are growing sustainable palm oil. <a class="red" href="http://www.rspo.org/members/all" target="_blank">RSPO</a> helps you know if you are buying a product with sustainably sourced palm oil.
                       </p>
 
                       <ul class="help-list list-unstyled">
@@ -478,22 +472,45 @@
           <div class="container wow fadeIn">
               <div class="row">
                   <div class="col-md-12">
-                      <div class="text-center">
-                          <h2 class="section-title text-capitalize text-center">Contact Us</h2>
+                      <?php
+                          //if "email" variable is filled out, send email
+                            if ( isset($_REQUEST['email']) )  {
+
+                            //Email information
+                            $admin_email = "kheyra@gmail.com";
+                            $email = $_REQUEST['email'];
+                            $comment = $_REQUEST['message'];
+
+                            //send email
+                            mail($admin_email, "Message From helpinghominids.com", $comment, "From:" . $email);
+
+                            //Email response
+                            echo '<p class="text-center" style="border: 4px solid #222; color: #222; font-weight: bold; font-size: 20px; padding: 20px; border-radius: 5px; margin-bottom: 80px;">Thank you for your message!</p>';
+                            }
+
+                            //if "email" variable is not filled out, display the form
+                            else  {
+                      ?>
+
+                      <div class="col-md-12">
+                          <div class="text-center">
+                              <h2 class="section-title text-capitalize text-center">Contact Us</h2>
+                          </div>
                       </div>
+
                       <p class="text-center questions-p">Have questions? Feel free to contact us with more information!</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12">
-                      <form action="" class="contact-form">
+
+                      <form method="post" action="#contact" class="contact-form">
                           <input type="text" name="name" id="name" placeholder="Name">
-                          <input type="email" name="email" id="email" placeholder="email@example.com">
-                          <textarea id="message" name="message" placeholder="Message"></textarea>
+                          <input name="email" type="email" id="email" placeholder="email@example.com" />
+                          <textarea name="message" id="message" placeholder="Message"></textarea>
                           <div class="text-right">
-                              <a href="#" class="btn btn-primary" id="submit-button">SUBMIT</a>
+                              <button id="submit-button" class="btn btn-primary text-uppercase" type="submit">SEND</button>
                           </div>
                       </form>
+                      <?php
+                        }
+                      ?>
                   </div>
               </div>
           </div>
@@ -513,6 +530,7 @@
     <script src="js/background/background.js"></script>
     <script src="js/Chart.js"></script>
     <script src="js/vendor/wow/wow.js"></script>
+    <script src="js/masonry.js"></script>
     <script src="js/videobackground.js"></script>
     <script src="js/app.js"></script>
     <script src="js/bootstrap.min.js"></script>

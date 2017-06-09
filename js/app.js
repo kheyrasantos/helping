@@ -15,6 +15,20 @@ $('.palm-oil-thing').each(function(){
     });
 });
 
+
+//Video Masonry Grid
+var container = $('.masonry-container');
+container.masonry({
+    itemSelector: '.palm-oil-thing',
+    gutter: 30,
+    isFitWidth: true,
+    columnWidth: 250
+});
+
+$(window).on('load',function(){
+    container.fadeTo('slow',1.5);
+});
+
 // Bar Graph to show decrease of orangutans
 $( window ).ready(function() {
 

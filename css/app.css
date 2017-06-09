@@ -5,6 +5,10 @@ html {
     font-size: 16px;
 }
 
+a {
+    transition: all 0.3s ease;
+}
+
 body {
     color: #222;
     font-family: 'Open Sans', serif;
@@ -144,9 +148,12 @@ Navigation
 }
 
 .navbar a:hover,
-.navbar a:focus,
 .navbar a:visited {
     background-color: rgba(147,216,202, 1) !important;
+}
+
+.navbar a:focus {
+    background-color: #ea6d6c !important;
 }
 
 .top-bar-right {
@@ -297,6 +304,10 @@ Orangutan Callout
 /************************
 Statistics / Charts
 ************************/
+#statistics {
+    background-color: white;
+}
+
 .charts {
     max-width: 1200px;
 }
@@ -452,16 +463,21 @@ Palm Oil
     font-size: 18px;
 }
 
+.masonry-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .palm-oil-thing {
-    width: 100%;
-    height: 100%;
-    min-height: 250px;
+    width: 250px;
+    height: 250px;
     background-color: #93d8ca;
     margin-top: 15px;
     margin-bottom: 15px;
     position: relative;
     text-align: center;
     transition: all 0.3s ease;
+    float: left;
 }
 
 .palm-oil-thing:hover {
@@ -479,20 +495,6 @@ Palm Oil
     color: white;
     font-size: 30px;
     transition: all 0.3s ease;
-}
-
-#soap {
-    background-image: url(/img/soap.png);
-}
-
-.palm-bg {
-    background-size: cover;
-    background-position: center;
-    z-index: 5;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    display: block;
 }
 
 .palm-oil-thing .image-text-container {
@@ -688,6 +690,10 @@ Media Queries
         padding: 20px;
     }
 
+    #many-products {
+        padding: 50px 0;
+    }
+
     #orangutan-callout .container .row {
         margin-left: 5px;
         margin-right: 5px;
@@ -759,7 +765,7 @@ Media Queries
     }
 
     #you-help {
-        margin: 100px 0;
+        margin-bottom: 100px;
     }
 
     #environment-callout,
@@ -767,6 +773,10 @@ Media Queries
     #gif, #statistics,
     #many-products {
         padding: 150px 0;
+    }
+
+    #statistics {
+        padding-bottom: 200px;
     }
 
     #orangutan-callout {
